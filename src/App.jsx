@@ -8,6 +8,7 @@ import { objValAnimation } from "./utilis/valAnimation";
 import { dayInputCheck } from "./utilis/dayInputCheck";
 import { monthInputCheck } from "./utilis/monthInputCheck";
 import { yearInputCheck } from "./utilis/yearInputCheck";
+import BUTTON_ICON from "./assets/images/icon-arrow.svg";
 const errorObj = {
 	state: false,
 	msg: "",
@@ -109,7 +110,7 @@ export function App() {
 				<hr className="hrline" />
 				<Button>
 					<img
-						src="../src/assets/images/icon-arrow.svg"
+						src={BUTTON_ICON}
 						alt="arrow iscon"
 						aria-hidden="true"
 						className="btn-arrow"
