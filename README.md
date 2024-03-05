@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop View](./desktop.png.jpg)
-![Mobile View](./mobile.png.jpg)
+![desktop View](./desktop.png)
+![Mobile View](./mobile.png)
 
 ### Links
 
