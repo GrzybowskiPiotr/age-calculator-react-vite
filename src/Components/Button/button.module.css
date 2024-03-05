@@ -1,0 +1,19 @@
+.btn {
+	position: absolute;
+	background-color: var(--Purple);
+	padding: 15px;
+	border: none;
+	border-radius: 50%;
+	font-family: "Poppins-Bold";
+	outline: none;
+	cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn:focus, .btn:hover{
+    background-color: var(--Off_black);
+}
+@media (min-width:995px) {
+	.btn{
+		right: 20px;
+	}
+}

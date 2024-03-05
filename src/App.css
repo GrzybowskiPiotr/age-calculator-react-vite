@@ -1,0 +1,32 @@
+.appContainer {
+	width: 100%;
+	background-color: var(--White);
+	border: none;
+	border-radius: 15px 15px 100px 15px;
+	padding: 30px 20px;
+}
+.inputsContainer{
+	max-width: 300px;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+	gap: 30px;
+    
+}
+.btn-arrow{
+    width: 25px;
+}
+.buttonContainer{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hrline {
+    width: 100%;
+    border:1px solid  var(--Light_grey);
+}

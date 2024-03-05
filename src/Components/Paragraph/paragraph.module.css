@@ -1,0 +1,8 @@
+.par {
+    font-size: 3rem;
+    font-family: "Poppins-ExtraBoldItalic"
+}
+
+.date{
+    color: var(--Purple);
+}

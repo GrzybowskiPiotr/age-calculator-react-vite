@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+*:root {
+	--Purple: hsl(259, 100%, 65%);
+	--Light_red: hsl(0, 100%, 67%);
+	--White: hsl(0, 0%, 100%);
+	--Off_white: hsl(0, 0%, 94%);
+	--Light_grey: hsl(0, 0%, 86%);
+	--Smokey_grey: hsl(0, 1%, 44%);
+	--Off_black: hsl(0, 0%, 8%);
+}
+html,
+body {
+	min-height: 100vh;
+	font-size: 16px;
+	scroll-behavior: smooth;
+	-webkit-tap-highlight-color: transparent;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+#root,
+#__next {
+	isolation: isolate;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+a,
+a:link,
+a:visited {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@font-face {
+	font-family: Poppins-Bold;
+	src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+	font-family: Poppins-BoldItalic;
+	src: url(./assets/fonts/Poppins-BoldItalic.ttf);
+}
+@font-face {
+	font-family: Poppins-ExtraBold;
+	src: url(./assets/fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+	font-family: Poppins-ExtraBoldItalic;
+	src: url(./assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+@font-face {
+	font-family: Poppins-Regular;
+	src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+	font-family: Poppins-Italic;
+	src: url(./assets/fonts/Poppins-Italic.ttf);
+}
+
+body {
+	font-family: "Poppins-Regular", sans-serif;
+	background-color: var(--Light_grey);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+}
+
+.app {
+	margin-top: 10vh;
+	flex: 1 0;
+	width: max(50%, 350px);
+	position: relative;
+}
+.footer {
+	width: 100vw;
+	text-align: center;
+	color: var(--Off_black);
+	background-color: var(--White);
+	font-size: 0.7rem;
+	z-index: 2;
+}
