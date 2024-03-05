@@ -85,7 +85,7 @@ export function App() {
 		<div className="appContainer">
 			<header className="inputsContainer">
 				<Input
-					name="day"
+	
 					label="Day"
 					onChange={onInputChange}
 					error={error.errorDay.state}
@@ -93,7 +93,7 @@ export function App() {
 					placeholder="DD"
 				/>
 				<Input
-					name="month"
+
 					label="Month"
 					onChange={onInputChange}
 					error={error.errorMonth.state}
@@ -101,7 +101,6 @@ export function App() {
 					placeholder="MM"
 				/>
 				<Input
-					name="year"
 					label="Year"
 					onChange={onInputChange}
 					error={error.errorYear.state}
